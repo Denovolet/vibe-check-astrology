@@ -1,4 +1,4 @@
-# ✨ Vibe Check & Astrology Daily CLI 💅🔮
+# ✨ Vibe Check & Astrology Daily CLI ✨
 
 Um script interativo e aesthetic em Python que consulta o horóscopo do dia via API e monta uma playlist de músicas para dar o tom da sua vibe (*Main Character Energy*).
 
