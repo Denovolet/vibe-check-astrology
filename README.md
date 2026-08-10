@@ -18,5 +18,5 @@ Um script interativo e aesthetic em Python que consulta o horóscopo do dia via 
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/Denovolet/vibe-check-astrology.git](https://github.com/Denovolet/vibe-check-astrology.git)
-   cd vibe-check-astrology
+   git clone https://github.com/Denovolet/vibe-check-astrology.git
+   ```
