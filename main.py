@@ -1,4 +1,4 @@
-```python
+
 import random
 import requests
 from rich.console import Console
