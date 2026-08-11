@@ -1,20 +1,19 @@
 # vibe-check-astrology
 
-Script simples em Python que pega o horóscopo do dia via API, calcula uma pontuação de "vibe" e sugere algumas músicas da Apple Music.
+Script em Python que consulta horóscopo diário e gera sugestões de músicas para acompanhar a vibe do dia.
 
-## O que o projeto faz
-- Consulta horóscopo diário
-- Gera um Vibe Score
-- Busca recomendações de músicas no iTunes/Apple Music
-- Exibe o resultado formatado no terminal usando a lib `rich`
+## Funcionalidades
+- Consulta de horóscopo via API
+- Cálculo simples de pontuação de vibe
+- Recomendações de faixas usando a API do iTunes/Apple Music
+- Interface formatada no terminal com a lib `rich`
 
-## Requisitos
+## Tecnologias
 - Python 3.10+
-- Bibliotecas listadas no `requirements.txt`
+- `requests`
+- `rich`
 
 ## Como rodar
-Clone o repositório e instale as dependências:
-
 ```bash
 git clone [https://github.com/Denovolet/vibe-check-astrology.git](https://github.com/Denovolet/vibe-check-astrology.git)
 cd vibe-check-astrology
