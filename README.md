@@ -1,22 +1,22 @@
-# ✨ Vibe Check & Astrology Daily CLI ✨
+# vibe-check-astrology
 
-Um script interativo e aesthetic em Python que consulta o horóscopo do dia via API e monta uma playlist de músicas para dar o tom da sua vibe (*Main Character Energy*).
+Script simples em Python que pega o horóscopo do dia via API, calcula uma pontuação de "vibe" e sugere algumas músicas da Apple Music.
 
-##  Destaques do Projeto
+## O que o projeto faz
+- Consulta horóscopo diário
+- Gera um Vibe Score
+- Busca recomendações de músicas no iTunes/Apple Music
+- Exibe o resultado formatado no terminal usando a lib `rich`
 
-- **Consumo de APIs Múltiplas:** Requisições para a **Horoscope API** e a **Apple Music/iTunes API**.
-- **Gerador de Vibe Aesthetic:** Algoritmo que calcula o *Vibe Score* e dá dicas de estilo baseadas na leitura astral.
-- **Interface Estilizada:** Desenvolvida com a biblioteca `rich`, utilizando temas rosa, painéis customizados e tabelas.
+## Requisitos
+- Python 3.10+
+- Bibliotecas listadas no `requirements.txt`
 
-##  Tecnologias Usadas
+## Como rodar
+Clone o repositório e instale as dependências:
 
-- **Python 3.10+**
-- **Requests:** Manipulação de requisições HTTP RESTful.
-- **Rich:** Design de interface de linha de comando.
-
-##  Como Executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/Denovolet/vibe-check-astrology.git
-   ```
+```bash
+git clone [https://github.com/Denovolet/vibe-check-astrology.git](https://github.com/Denovolet/vibe-check-astrology.git)
+cd vibe-check-astrology
+pip install -r requirements.txt
+python main.py
